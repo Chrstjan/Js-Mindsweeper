@@ -50,7 +50,6 @@ class DeathTile extends Tile {
   }
 }
 
-
 // const greenTile = new GreenTile();
 // const bonusTile = new BonusTile();
 // const deathTile = new DeathTile();
