@@ -11,6 +11,14 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: sans-serif, Arial, Helvetica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container #app {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.2em;
 }
 .main-container .tile {
   display: block;
