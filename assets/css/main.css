@@ -12,3 +12,18 @@ body {
   padding: 0;
   font-family: sans-serif, Arial, Helvetica;
 }
+.main-container .tile {
+  display: block;
+  background: black;
+  width: 5vh;
+  height: 5vh;
+}
+.main-container .tile.green {
+  background: green;
+}
+.main-container .tile.yellow {
+  background: yellow;
+}
+.main-container .tile.red {
+  background: red;
+}

@@ -1,3 +1,1 @@
-import { logMessage } from "./Components/app.js";
-
-logMessage();
+import { tileTest } from "./Components/app.js";

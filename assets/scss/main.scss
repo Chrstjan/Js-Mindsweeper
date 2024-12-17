@@ -13,4 +13,23 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: sans-serif, Arial, Helvetica;
+
+  .tile {
+    display: block;
+    background: black;
+    width: 5vh;
+    height: 5vh;
+
+    &.green {
+      background: green;
+    }
+
+    &.yellow {
+      background: yellow;
+    }
+
+    &.red {
+      background: red;
+    }
+  }
 }
