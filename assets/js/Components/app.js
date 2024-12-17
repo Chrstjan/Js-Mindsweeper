@@ -58,19 +58,18 @@ class DeathTile extends Tile {
 const generateTiles = (amount) => {
   
   for (let i = 0; i < amount; i++) {
-    let randNum = Math.floor(Math.random() * 3) + 1;
-    console.log("Testing", randNum);
+    let randNum = Math.floor(Math.random() * 100) + 1;
   
-    if (randNum == 1) {
-      const tileElm = new GreenTile();
+    if (randNum <= 90) {
+     new GreenTile();
     }
-    if (randNum == 2) {
-      const tileElm = new BonusTile();
+    else if (randNum <= 95) {
+      new BonusTile();
     }
-    else if (randNum == 3) {
-      const tileElm = new DeathTile();
+    else {
+      new DeathTile();
     }
   }
 }
 
-generateTiles(40);
+generateTiles(30);

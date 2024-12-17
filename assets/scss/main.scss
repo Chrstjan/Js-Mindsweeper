@@ -20,6 +20,8 @@ body {
   #app {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
     gap: 0.2em;
   }
 
@@ -29,16 +31,24 @@ body {
     width: 5vh;
     height: 5vh;
 
+    &:hover {
+      background: darkgray;
+      cursor: pointer;
+    }
+
     &.green {
       background: green;
+      border-radius: 50%;
     }
 
     &.yellow {
       background: yellow;
+      border-radius: 50%;
     }
 
     &.red {
       background: red;
+      border-radius: 50%;
     }
   }
 }
